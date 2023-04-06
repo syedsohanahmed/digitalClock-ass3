@@ -40,3 +40,10 @@ setInterval(updateClock, 1000);
 
 // call the updateClock function once to initialize the clock
 updateClock();
+
+
+
+/*
+Clock work: 
+gets the current time using the Date object, formats the time into hours, minutes, seconds, and meridian using string manipulation, and displays the formatted time in the div elements
+*/
