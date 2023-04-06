@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(rgba(19, 19, 19, 0.8), rgba(19, 39, 27, 0.8)), url("https://source.unsplash.com/random/1920x1080/?clock"); 
+    /*Dynamic Url : background: url("https://source.unsplash.com/random/1920x1080/?clock"); */
+    color: white;
+}
+.heading{
+	margin-bottom:100px;
+}
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+	
+
+
+}
+
+.time {
+    font-size: 72px;
+    background-color: rgba(24, 196, 139, 0.806);
+    box-shadow: rgba(50, 227, 192, 0.822) 0px 0px 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.label {
+    font-size: 1.5em;
+    padding: 0 10px;
+}
+
+/*Use PC to check it.site is not responsive.
+*/
